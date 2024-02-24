@@ -10,6 +10,14 @@
     <div class="container">
         <h2>Baseball Lineup Stats Calculator</h2>
         <div>
+            <label for="name">Player Name:</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="position">Position:</label>
+            <input type="text" id="position">
+        </div>
+        <div>
             <label for="hits">Hits:</label>
             <input type="number" id="hits">
         </div>
@@ -17,7 +25,7 @@
             <label for="atBats">At Bats:</label>
             <input type="number" id="atBats">
         </div>
-        <button onclick="calculateStats()">Calculate Stats</button>
+        <button onclick="addPlayerAndCalculate()">Add Player & Calculate Stats</button>
         <div id="results"></div>
     </div>
 
